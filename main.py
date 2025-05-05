@@ -1,8 +1,8 @@
 from random import randint
 
 config = {
-    "ancho": 7,
-    "alto": 7
+    "ancho": 20,
+    "alto": 20
 }
 
 
@@ -66,6 +66,7 @@ def actualizar(anterior):
     return siguiente
 
 
+# Ejecuta si y solo si soy el fichero principal
 if __name__ == "__main__":
     tablero = init()
 
